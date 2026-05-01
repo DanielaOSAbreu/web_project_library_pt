@@ -1,0 +1,26 @@
+# Isso é um comentário. As linhas abaixo serão ignoradas.
+
+# 1. Diretórios de dependências (já é padrão, mas explícito é bom)
+node_modules
+
+# 2. Pastas com código gerado ou compilado
+build
+dist
+coverage
+.next
+.out
+
+# 3. Arquivos de lock e configuração de pacotes
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# 4. Arquivos de ambiente e logs
+.env
+*.log
+
+# 5. Um tipo de arquivo específico (ex: HTML, se não estiver pronto)
+*.html
+
+# 6. Um padrão mais complexo com curinga
+**/__generated__/**  # Ignora qualquer pasta chamada "__generated__"
