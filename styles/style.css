@@ -95,12 +95,14 @@
   margin: 0;
   color: #838383;
 }
+
 .staff {
   background-image: url("../images/staff_picks_background.jpg");
   padding: 100px 0 140px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  
 }
 
 .staff__title {
@@ -274,20 +276,16 @@
 .person_name_cannon {
   bottom: 18px;
   right: 216px;
-
-  /* Use os valores corretos das propriedades top/right/bottom/left para posicionar o elemento */
 }
 
 .person_name_mitchell {
   bottom: 82px;
   left: 142px;
-  /* Use os valores corretos das propriedades top/right/bottom/left para posicionar o elemento */
 }
 
 .person_name_tarter {
   top: 79px;
   left: 159px;
-  /* Use os valores corretos das propriedades top/right/bottom/left para posicionar o elemento */
 }
 
 .person__image {
@@ -310,5 +308,114 @@
    text-align: center;
   font-size: 14px;
   margin: 0; 
+}
+.membership {
+  padding: 100px 0 140px;
+  background-color: #057bf2;
+  color: #ffffff;
+  
+}
+
+.membership__title {
+  max-width: 574px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+}
+
+.membership__steps {
+  list-style-type: none;
+  padding: 0;
+  margin: 100px 0 0;
+  display: flex;
+  justify-content: center;
+  column-gap: 40px;
+  /* Adicione estilos */
+}
+
+.step {
+  display:flex;
+  flex-direction: column;
+  flex-basis: 220px;
+  justify-content: space-between;
+  
+  align-items: flex-start;
+  
+  /* Adicione estilos */
+}
+
+.step__title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
 
 }
+
+.step__icon {
+  margin-left: 20px;
+}
+
+.step__description {
+  margin: 10px 0 0;
+}
+
+.footer {
+  box-sizing: border-box;
+  display: flex;
+  background-color: #1f1f1f;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.footer__columns {
+  margin: 60px 80px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+
+}
+
+.footer__column_content_hours {
+}
+
+.footer__column_content_social {
+}
+
+.footer__logo {
+  width: 58px;
+  height: 80px;
+  margin-bottom: 100px;
+}
+
+.footer__column-heading {
+}
+
+.footer__list {
+  /* O código abaixo remove os estilos do navegador padrão para listas */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__list-item {
+}
+
+.footer__column-link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer__social-icon {
+}
+
+.footer__copyright {
+  margin-top: 100px;
+  align-self: flex-start;
+  
+}
+
