@@ -402,6 +402,7 @@
 }
 
 .footer__column-heading {
+  margin-bottom: 20px;
   
 
 
@@ -415,8 +416,7 @@
 }
 
 .footer__list-item {
-  margin-top: 20px;
-  
+  padding-bottom: 16px;
 }
 
 .footer__column-link {
